@@ -223,7 +223,7 @@ router.post("/login", (req, res)=> {
       resMsg.usermobno=userdata.phoneno
       resMsg.useremail=userdata.email
 
-      var token = jwt.sign({ data: resMsg }, SECRET_KEY, { expiresIn: "10000s" });
+      var token = jwt.sign({ data: resMsg }, SECRET_KEY, { expiresIn: "86400s" });
       res.json({status:'success',token:token, data:resMsg});
     } 
     else res.json({status:'failed',data:'Email/Password not exist..!!'})
