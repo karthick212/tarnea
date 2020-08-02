@@ -1,0 +1,97 @@
+.sidewidth {
+    width: 250px;	
+}
+.logo {
+	padding: 5px;
+	background-color: #1e282c;
+    color: #fff;
+    border-bottom: 0 solid transparent;
+    min-height: 50px;    
+    position: absolute;
+    display: block;
+    z-index: inherit;
+}
+
+.menu {
+    color: #fff;
+    border-bottom: 0 solid transparent;
+    position: absolute;
+    display: block;
+    z-index: inherit;
+}
+.navbar {
+	transition: margin-left .3s ease-in-out;
+    margin-bottom: 0;
+    display: block !important;
+    /*margin-left: 230px;*/
+    border: none;
+    min-height: 50px;
+    border-radius: 0;
+    background: #dc3545;
+    position: absolute;
+    text-align: right;
+    color: white;
+ }
+
+.logo:hover {
+	background-color: #dc3545;
+	}
+.menubar {
+	transition: margin-left .3s ease-in-out;
+    margin-bottom: 0;
+    margin-left: 250px;
+    border: none;
+    min-height: 100vh;
+    border-radius: 0;
+    background: #ecf0f5;
+    position: absolute;
+    width: -webkit-fill-available;
+ }
+.main-header {
+	position: relative;
+    max-height: 100px;
+    z-index: 1030;
+}
+.navbar-top {
+z-index: 1000;
+}
+.padding-5 {
+	padding: 5px !important;
+}
+.padding-12 {
+    padding: 12px !important;
+}
+.card-body {
+	flex: 1 1 auto;
+    min-height: 1px;
+    padding: 0.5rem !important;
+}
+.padding-20 {
+	padding: 20px !important;
+}
+.padding-left-5 {
+	padding-left: 5px;
+}
+.breadcrumb {
+	margin-bottom: 0.2rem !important;
+}
+.form-group {
+	margin-bottom: 0.5rem !important;
+}
+.error {
+    font-size: small;
+    font-weight: 500;
+    color: red;
+}
+.table td {
+    padding: 0.5rem !important;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+.centerscreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
